@@ -13,7 +13,7 @@ extension Theme where Site == TenEightStudios {
     static var tenEightStudios: Self {
         Theme(
             htmlFactory: TenEightStudiosHTMLFactory(),
-            resourcePaths: ["Resources/TenEightTheme/theme.css"]
+            resourcePaths: ["Resources/TenEightTheme/styles.css"]
         )
     }
 }

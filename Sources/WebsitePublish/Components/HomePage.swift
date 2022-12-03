@@ -5,6 +5,7 @@
 //  Created by Rob Maltese on 11/21/22.
 //
 
+import Publish
 import Plot
 
 struct HomePage: Component {
@@ -23,10 +24,9 @@ struct HomePage: Component {
                         Text("PROJECTS")
                     }
                     .class("text-sky-400")
-                    
                 }
             } // Main Container
-            .class("container")
+            .class("container bg-indigo-500")
         }
     }
 }
